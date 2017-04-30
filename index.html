@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="css/animate.css"/>
     <script>
         ~function () {
-            var desw = 640;
-            var winW = document.documentElement.clientWidth;
-            if (winW > 640) return;
-            document.documentElement.style.fontSize = winW / desw * 100 + 'px';
-        }()
+            let winW = document.documentElement.clientWidth;
+            let ratio = winW/750;
+            if (winW > 750) return;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }(750)
 
     </script>
 </head>
@@ -44,7 +44,7 @@
             <div class="swiper-slide slide2 " >
                 <img src="img/big.png" alt="">
                 <img src="img/circle.png" alt="">
-                <img src="img/person_02.jpeg" alt="">
+                <img src="img/person.jpg" alt="">
                 <div class="info">基本信息</div>
                 <p class="name" id="name">姓名：谢洪军</p>
                 <p>生日：1993-1-29</p>
@@ -62,7 +62,7 @@
                 <img src="img/skill.png" alt="">
                 <img src="img/node.png" alt="">
                 <img src="img/js.png" alt="">
-                <img src="img/angular.png" alt="">
+                <img src="img/vue.png" alt="">
                 <img src="img/html.png" alt="">
                 <img src="img/react.png" alt="">
                 <img src="img/jq.png" alt="">
