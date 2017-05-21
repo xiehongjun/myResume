@@ -9,12 +9,11 @@ html,body,.main{
 }
 .swiper-container{
     width: 100%;
-    height: 100%;
-}
+    height: 100%;}
 /*page1 cover*/
 .slide1{
     position: relative;
-    background: url("../img/bg2.png") no-repeat ;
+    background: url("../img/bg.png") no-repeat ;
     background-size: 100% 100%;
     /*display: none;*/
 }
@@ -25,16 +24,16 @@ html,body,.main{
 .slide1 img:nth-child(1){
     width: 1.9rem;
     left: 1.7rem;
-    bottom: 6.4rem;
+    top: 1.8rem;
 }
 .slide1 img:nth-child(2){
     width: 1.9rem;
     left: 0.2rem;
-    bottom:3.5rem;
+    top:5.5rem;
 }
 .slide1 img:nth-child(3){
     width:1.7rem;
-    left: 4.3rem;
+    left: 3.8rem;
     bottom: 4.5rem;
 }
 .slide1 img:nth-child(4){
@@ -49,17 +48,17 @@ html,body,.main{
 }
 .slide1 img:nth-child(6){
     width:2.2rem;
-    left: 2.5rem;
-    top:4.9rem;
+    left: 4.5rem;
+    top:3.9rem;
 }
 .slide1 img:nth-child(7){
     width:1.1rem;
-    left: 1rem;
-    top:8rem;
+    left: 2rem;
+    bottom:3rem;
 }
 .slide1 img:nth-child(8){
     width:2.7rem;
-    left: 4.5rem;
+    left: 2.5rem;
     top:0.3rem;
 }
 .arrow{
@@ -145,7 +144,7 @@ html,body,.main{
 /*page2 personalInfo*/
 .slide2{
     position: relative;
-    background: url("../img/bg2.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
     /*display: none;*/
 }
@@ -186,8 +185,16 @@ html,body,.main{
     color: white;
     margin-top: 0.8rem;
     margin-left: 0.4rem;
-    line-height: 0;
-    font-size: 0.35rem;
+    line-height: 0.15rem;
+    font-size: 0.4rem;
+}
+#slide2{
+    color: white;
+    opacity: 1;
+    margin-top: 0.8rem;
+    margin-left: 0.4rem;
+    line-height: 0.15rem;
+    font-size: 0.4rem;
 }
 .slide2 .name{
     margin-top: 1.4rem;
@@ -248,7 +255,7 @@ html,body,.main{
     -webkit-animation: lightSpeedIn 1s 2.1s both;
     animation: lightSpeedIn 1s 2.1s both;
 }
-#page2 :nth-child(10){
+#page2 :nth-child(10) a{
     -webkit-animation: lightSpeedIn 1s 2.3s both;
     animation: lightSpeedIn 1s 2.3s both;
 }
@@ -261,9 +268,9 @@ html,body,.main{
     animation: lightSpeedIn 1s 2.7s both;
 }
 #page2 :nth-child(13){
-    -webkit-animation: lightSpeedIn 1s 3s both;
-    animation: lightSpeedIn 1s 3s both;
-}
+     -webkit-animation: lightSpeedIn 1s 3s both;
+     animation: lightSpeedIn 1s 3s both;
+ }
 @-webkit-keyframes rotate {
     0%{
         -webkit-transform: rotate(-90deg) scale(1);
@@ -294,7 +301,7 @@ html,body,.main{
 /*page3 skill*/
 .slide3{
     position: relative;
-    background: url("../img/bg2.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
     /*display: none;*/
 }
@@ -386,22 +393,25 @@ html,body,.main{
 
 .slide4{
     position: relative;
-    background: url("../img/bg2.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
     /*display: none;*/
 }
 .slide4 :nth-child(n){
     opacity: 0;
 }
-.slide4 img:nth-child(1){
+.slide4 img{
     width: 2.5rem;
-    left: 2rem;
+    left: 2.5rem;
     top: 0.3rem;
 }
-.slide4 img:nth-child(2){
-    width: 2rem;
-    left: 2.25rem;
+.slide4 span{
+    position: absolute;
+    left: 2.75rem;
     top: 1.2rem;
+    width: 2rem;
+    font-size: .5rem;
+    color: #fff;
 }
 .slide4 :nth-child(3){
     position: relative;
@@ -425,7 +435,7 @@ html,body,.main{
 }
 .slide4 :nth-child(5){
     position: absolute;
-    left: 3.2rem;
+    left: 3.7rem;
     top: 3.5rem;
     z-index: 10;
     width: 0.05rem;
@@ -435,7 +445,7 @@ html,body,.main{
 .slide4 :nth-child(6){
     position: absolute;
     z-index: 11;
-    left: 3.08rem;
+    left: 3.58rem;
     top: 3.4rem;
     display: block;
     width: 0.3rem;
@@ -446,7 +456,7 @@ html,body,.main{
 .slide4 :nth-child(7){
     position: absolute;
     z-index: 11;
-    left: 3.08rem;
+    left: 3.58rem;
     top: 4.5rem;
     display: block;
     width: 0.28rem;
@@ -457,7 +467,7 @@ html,body,.main{
 .slide4 :nth-child(8){
     position: absolute;
     z-index: 11;
-    left: 3.08rem;
+    left: 3.58rem;
     top: 5.9rem;
     display: block;
     width: 0.3rem;
@@ -468,7 +478,7 @@ html,body,.main{
 .slide4 :nth-child(9){
     position: absolute;
     z-index: 11;
-    left: 3.08rem;
+    left: 3.58rem;
     top: 7.5rem;
     display: block;
     width: 0.28rem;
@@ -479,7 +489,7 @@ html,body,.main{
 .slide4 :nth-child(10){
     position: absolute;
     z-index: 11;
-    left: 3.08rem;
+    left: 3.58rem;
     top: 9rem;
     display: block;
     width: 0.3rem;
@@ -494,23 +504,23 @@ html,body,.main{
     font-size: 0.35rem;
 }
 .slide4 :nth-child(11){
-    left: 3.5rem;
+    left: 4rem;
     top:3.3rem;
 }
 .slide4 :nth-child(12){
-    left: 0.5rem;
+    left: 1rem;
     top:4.2rem;
 }
 .slide4 :nth-child(13){
-    left: 3.5rem;
+    left: 4rem;
     top:5.8rem;
 }
 .slide4 :nth-child(14){
-    left: 0.5rem;
+    left: 1rem;
     top:7.1rem;
 }
 .slide4 :nth-child(15){
-    left: 3.5rem;
+    left: 4rem;
     top:8.9rem;
 }
 #page4 :nth-child(1){
@@ -602,31 +612,34 @@ html,body,.main{
 }
 .slide5{
     position: relative;
-    background: url("../img/bg2.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
     /*display: none;*/
 }
 .slide5 :nth-child(n){
     opacity: 0;
 }
-.slide5 img:nth-child(1){
+.slide5 img{
     width: 2.5rem;
-    left: 2rem;
+    left: 2.5rem;
     top: 0.3rem;
 }
-.slide5 img:nth-child(2){
-    width: 2rem;
-    left: 2.25rem;
+.slide5 span{
+    position: absolute;
+    left: 2.75rem;
     top: 1.2rem;
+    width: 2rem;
+    font-size: .5rem;
+    color: #fff;
 }
 .slide5 :nth-child(3){
-    width: 5rem;
+    width: 6rem;
     margin-left: 0.8rem;
     margin-top: 3.6rem;
     z-index: 10;
     color: snow;
-    line-height: 0.5rem;
-    font-size: 0.3rem;
+    line-height: 0.8rem;
+    font-size: 0.5rem;
 }
 #page5 :nth-child(1){
     -webkit-animation: fadeIn 1s 0s both,circle linear 1.4s 1s infinite both;
@@ -648,7 +661,7 @@ html,body,.main{
 
 .slide6{
     position: relative;
-    background: url("../img/bg1.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
 }
 .slide6 img:nth-child(1){
@@ -667,13 +680,11 @@ html,body,.main{
     top: 0;
 }
 .slide6 :nth-child(4){
-    width: 4rem;
-    height: 4.3rem;
+    width: 5rem;
     overflow: hidden;
-    margin-left: 0.8rem;
+    margin-left: 1.2rem;
     margin-top: 4rem;
-
-    line-height: 0.5rem;
+    line-height: 0.6rem;
     /*opacity: 0;*/
 }
 
@@ -695,12 +706,12 @@ html,body,.main{
 #page6 #des span{
     opacity: 0;
     color: snow;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     margin-left: 0;
 }
 .slide7 {
     position: relative;
-    background: url("../img/bg1.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
 }
 .slide7 :nth-child(n){
@@ -712,29 +723,44 @@ html,body,.main{
 }
 .slide7 :nth-child(1) {
      position: absolute;
-     left: 0.8rem;
+     left: 1.2rem;
      top:3rem;
      width: 2rem;
  }
 .slide7 :nth-child(2) {
     position: absolute;
-    left: 2.1rem;
+    left: 2.5rem;
     top:3rem;
     width: 2rem;
 }
 .slide7 :nth-child(3) {
     position: absolute;
-    left:3.4rem;
+    left:3.8rem;
     top:3rem;
     width: 2rem;
 
 }
 .slide7 :nth-child(4) {
     position: absolute;
-    left:4.7rem;
+    left:5.1rem;
     top:3rem;
     width: 2rem;
 
+}
+.slide7 :nth-child(5) {
+    position: absolute;
+    left:2.8rem;
+    top:6rem;
+    width: 2rem;
+    font-size: .4rem;
+
+}
+
+.slide7 img{
+    position: absolute;
+    bottom: 3rem;
+    width: 3rem;
+    left: 2.3rem
 }
 #page7 :nth-child(1){
     animation: bounceInDown  1s 0s both;
@@ -747,6 +773,13 @@ html,body,.main{
 }
 #page7 :nth-child(4){
     animation: bounceInDown  1s 0.6s both;
+}
+#page7 :nth-child(5){
+    animation: bounceInDown  1s 0.8s both;
+}
+#page7 img{
+    animation: bounceInDown  1s 1.2s both;
+    opacity: 1;
 }
 #page7 :nth-child(n){
     opacity: 1;

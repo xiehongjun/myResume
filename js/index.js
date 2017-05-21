@@ -28,7 +28,7 @@ let mySwiper = new Swiper(".swiper-container", {
 
                 if (index==6){
                     clearTimeout(fontTimer);
-                    let fontTimer=window.setTimeout(function () {
+                    var  fontTimer=window.setTimeout(function () {
                         if (!flag) return;
                         prender();
                     },1000);
@@ -50,7 +50,7 @@ function prender() {
     let n = 0;
     createSpan();
     clearInterval(timer);
-    let timer = setInterval(function () {
+    var timer = setInterval(function () {
         if (n >= aSpan.length) {
             clearInterval(timer);
             return;
