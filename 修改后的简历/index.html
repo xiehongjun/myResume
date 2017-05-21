@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/index-self.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <script>
+        ~function () {
+            let winW = document.documentElement.clientWidth;
+            let ratio = winW/750;
+            if (winW > 750) return;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }(750)
+
+    </script>
+</head>
+<body>
+<section class="main">
+    <div class="music">
+        <audio src="audio/music.mp3" loop preload="none" id="beyond">
+            <!--preload="none"  不提前进行预加载-->
+            <!--preload="auto"  提前进行预加载-->
+        </audio>
+    </div>
+    <div class="return"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1 " >
+                <img src="img/ge.png" alt="文字:个"/>
+                <img src="img/ren.png" alt="文字:人"/>
+                <img src="img/jian.png" alt="文字:简"/>
+                <img src="img/li.png" alt="文字:历"/>
+                <img src="img/line.png" alt="线">
+                <img src="img/flower-b.png" alt="羽毛">
+                <img src="img/flower-l.png" alt="羽毛">
+                <img src="img/flower-t.png" alt="羽毛">
+                <div class="arrow"></div>
+            </div>
+            <div class="swiper-slide slide2 " >
+                <img src="img/big.png" alt="旋转图片">
+                <img src="img/circle.png" alt="圆">
+                <img src="img/person.jpg" alt="个人图片">
+                <div class="info">基本信息</div>
+                <p class="name" id="name">姓名：谢洪军</p>
+                <p>生日：1993-1-29</p>
+                <p>QQ：894338759</p>
+                <p>联系电话：18233004939</p>
+                <p>邮箱：894338759@qq.com</p>
+                <p>工作经验：一年</p>
+                <p>毕业院校：河北科技师范学院</p>
+                <p>学历：专科</p>
+                <p>专业：计算机多媒体</p>
+                <div class="arrow"></div>
+            </div>
+            <div class="swiper-slide slide3 " >
+                <img src="img/circle-w.png" alt="圆">
+                <img src="img/skill.png" alt="技能图标">
+                <img src="img/node.png" alt="node图标">
+                <img src="img/js.png" alt="js图标">
+                <img src="img/vue.png" alt="vue图标">
+                <img src="img/html.png" alt="html图标">
+                <img src="img/react.png" alt="react图标">
+                <img src="img/jq.png" alt="jq图标">
+                <img src="img/css.png" alt="css图标">
+                <div class="arrow"></div>
+            </div>
+            <div class="swiper-slide slide4 " >
+                <img src="img/circle-w.png" alt="圆">
+                <span>工作信息</span>
+                <!--右边三角-->
+                <div class="left"></div>
+                <!--左边三角-->
+                <div class="right"></div>
+                <!--竖线-->
+                <div></div>
+                <!--圆点-->
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>求职意向：前端<br/>开发攻城狮</p>
+                <p>目标地点：北京</p>
+                <p>求职状态：目前<br/>处于离职状态</p>
+                <p>期望薪资：(10K<br>-13k)</p>
+                <div class="arrow"></div>
+            </div>
+            <!--work experience-->
+            <div class="swiper-slide slide5 ">
+                <img src="img/circle-w.png" alt="圆">
+                <span>工作经验</span>
+                <p>2016年5月-2017年4月   北京软通动力信息技术有限公司</p>
+                <div class="arrow"></div>
+            </div>
+            <div class="swiper-slide slide6 ">
+                <img src="img/page3.png" alt="圆圈" class="first">
+                <img src="img/page3.png" alt="圆圈">
+                <img src="img/self1.png" alt="自我评价" class="self" id="self">
+                <div class="des" id="des"></div>
+                <div class="arrow"></div>
+            </div>
+            <div class="swiper-slide slide7 " id="page7">
+                <span>谢</span>
+                <span>谢</span>
+                <span>观</span>
+                <span>看</span>
+                <span>博客二维码</span>
+                <img src="img/blog.png" alt="博客二维码">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="js/swiper.min.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/move3.js"></script>
+<script src="js/index.js"></script>
+<script>
+
+
+</script>
+</body>
+</html>
